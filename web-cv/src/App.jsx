@@ -1,13 +1,11 @@
 import './App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="app-container">
-      <header className="header">
-        <div className="header-content">
-          <h1 className="header-title">My Application</h1>
-        </div>
-      </header>
+      <Header />
       <main>
         <div className="main-content">
           <div className="content-box">
@@ -15,6 +13,7 @@ function App() {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   )
 }
